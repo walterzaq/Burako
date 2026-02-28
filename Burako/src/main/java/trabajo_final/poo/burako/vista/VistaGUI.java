@@ -14,14 +14,12 @@ public class VistaGUI{
         this.controlador = controlador;
     }
 
-    /*
     public void setEtiqueta(String string){
         etiqueta.setText(string);
     }
 
-    public void cambiarEscena() {
+    public void modificarEtiqueta() {
         controlador.setEtiqueta();
     }
-
-     */
 }
+
