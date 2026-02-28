@@ -1,6 +1,0 @@
-.conFondo1 {
-    -fx-background-image: url("../images/Fondo1.jpg");
-    -fx-background-size: cover; /* Ajusta la imagen al tamaño de la ventana */
-    -fx-background-repeat: no-repeat;
-    -fx-background-position: center center;
-}
