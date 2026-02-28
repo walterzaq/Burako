@@ -20,7 +20,6 @@ public class AppGUI extends Application {
 
     @Override
     public void start(Stage stage) throws Exception {
-        //controlador.setStage(stage);
         FXMLLoader fmxlLoader = new FXMLLoader(AppGUI.class.getResource("fwf2.fxml"));
         fmxlLoader.setController(vista);
 
@@ -30,5 +29,7 @@ public class AppGUI extends Application {
         stage.show();
 
         vista.setControlador(controlador);
+        //Por lo que vi en la clase, parece necesario que la vista conozca tambien al controlador.
     }
 }
+
