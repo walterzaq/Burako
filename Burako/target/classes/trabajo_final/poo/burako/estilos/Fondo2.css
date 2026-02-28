@@ -1,0 +1,6 @@
+.conFondo2 {
+    -fx-background-image: url("../images/Fondo2.png");
+    -fx-background-size: cover; /* Ajusta la imagen al tamaño de la ventana */
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center center;
+}
