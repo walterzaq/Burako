@@ -21,7 +21,7 @@ public class AppGUI extends Application {
     @Override
     public void start(Stage stage) throws Exception {
         FXMLLoader fmxlLoader = new FXMLLoader(AppGUI.class.getResource("fwf2.fxml"));
-        fmxlLoader.setController(vista);
+        //fmxlLoader.setController(vista);
 
         Scene escena = new Scene(fmxlLoader.load(),640,480);
         stage.setTitle("POO!!!");
